@@ -1,5 +1,5 @@
 ### Android系统架构
-image1
+[!image](https://github.com/ningbaoqi/AndroidBase/blob/master/gif/pic-1.jpg)
 
 |层次|说明|
 |------|------|
