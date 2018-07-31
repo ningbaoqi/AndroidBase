@@ -38,3 +38,9 @@ sudo apt-get install openjdk-7-jdk
 sudo update-alternatives --config java
 sudo update-alternatives --config javac
 ```
+#### 四、安装编译需要的开发包
++ 安装新的开发环境时最好到Android的官网上下载Google指定的安装包列表，[地址](http://source.android.com/source/initializing.html)；在Unbuntu12.04及以上版本需要安装下列开发包：
+
+```
+sudo apt-get install git gnupg flex bison gperf build essential zip curl libc6-dev libncurses5-dev:i386 x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386 libg11-mesa-glx:i386 libg11-mesa-dev g++-multilib mingw32 tofrodos python-markdown libxm12-utils xsltproc zlib1g-dev:i386
+```
