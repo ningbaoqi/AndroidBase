@@ -44,3 +44,12 @@ sudo update-alternatives --config javac
 ```
 sudo apt-get install git gnupg flex bison gperf build essential zip curl libc6-dev libncurses5-dev:i386 x11proto-core-dev libx11-dev:i386 libreadline6-dev:i386 libg11-mesa-glx:i386 libg11-mesa-dev g++-multilib mingw32 tofrodos python-markdown libxm12-utils xsltproc zlib1g-dev:i386
 ```
+#### 五、安装一些有用的工具
+
+|工具|说明|
+|------|------|
+|安装AndroidSDK|AndroidSDK中附带了很多有用的工具，如`adb、ddms、hierarchyviewer`等，都是进行Android系统开发调试必须用到的；AndroidSDK需要从Android的官网上下载，下载解压缩后可以将SDK目录下的`platform_tools`和`tools`两个子目录的路径添加到`ubuntu `的`PATH`环境变量中，方便以后使用|
+|安装AndroidStudio|系统级别的java开发会用到很多Android的内部类，这些类在SDK中不存在，因此，使用AndroidStudio时会报错，解决方法是从Android的源代码编译结果中找到对应的系统类库，添加到AndroidStudio的项目依赖库中就可以了，需要注意的是，这种方式只能用来解决编译问题，最后产生的APK文件并不能直接使用|
+|安装SourceInsight|[SourceInsight官网](http://www.sourceinsight.com)|
+|安装比较工具`Meld`|`Meld`可以通过命令安装：`sudo apt-get install meld`|
+
