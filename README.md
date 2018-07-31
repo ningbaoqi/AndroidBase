@@ -4,3 +4,4 @@
 ### [编译Android源代码](https://github.com/ningbaoqi/AndroidBase/blob/master/README-make.md)
 ### [Android常用开发工具的用法](https://github.com/ningbaoqi/AndroidBase/blob/master/README-tool.md)
 ### [签名Android应用程序](https://github.com/ningbaoqi/AndroidBase/blob/master/README-sign.md)
+### [Android构建流程](https://github.com/ningbaoqi/AndroidBase/blob/master/README-liucheng.md)
