@@ -7,3 +7,4 @@
 ### [Android构建流程](https://github.com/ningbaoqi/AndroidBase/blob/master/README-liucheng.md)
 ### [Gradle](https://github.com/ningbaoqi/AndroidBase/blob/master/README-gradle.md)
 ### [Proguard混淆](https://github.com/ningbaoqi/AndroidBase/blob/master/README-Proguard.md)
+### [Android的静态lint检查](https://github.com/ningbaoqi/AndroidBase/blob/master/README-lint.md)
