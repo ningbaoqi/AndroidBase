@@ -1,3 +1,4 @@
+### [Android系统架构](https://github.com/ningbaoqi/AndroidBase/blob/master/README-jiagou.md)
 ### [搭建Android系统开发环境](https://github.com/ningbaoqi/AndroidBase/blob/master/README-dajian.md)
 ### [下载Android源码](https://github.com/ningbaoqi/AndroidBase/blob/master/README-download.md)
 ### [编译Android源代码](https://github.com/ningbaoqi/AndroidBase/blob/master/README-make.md)
