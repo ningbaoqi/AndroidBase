@@ -31,3 +31,10 @@ export CLASSPATH=$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH
 export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 ```
 + 测试是否配置成功：`java -version`；
+#### 三、安装OpenJDK1.7
+
+```
+sudo apt-get install openjdk-7-jdk
+sudo update-alternatives --config java
+sudo update-alternatives --config javac
+```
