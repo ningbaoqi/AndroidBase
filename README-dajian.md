@@ -1,6 +1,6 @@
 ### 搭建Android系统开发环境
 #### 一、安装Ubuntu操作系统
-+ [Ubuntu官网](http://www.ubuntu.org)；从服务器上下载最新的软件包列表：`sudo apt-get update`；Ubuntu上安装4.4版本的`gcc`和`g++`的命令：
++ [Ubuntu官网](http://www.ubuntu.org)从服务器上下载最新的软件包列表`sudo apt-get update`；Ubuntu上安装4.4版本的`gcc`和`g++`的命令：
 
 ```
 sudo apt-get install gcc-4.4 g++-4.4 g++-4.4-multilib gcc-4.4-multilib
