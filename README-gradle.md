@@ -68,3 +68,31 @@ dependencies {
 |./gradlew assembleRelease|编译并打release包|
 |./gradlew installRelease|通过Release模式打包并安装|
 |./gradlew uninstallRelease|卸载Release模式包|
+
+### gradle实现多渠道打包
++ 以友盟为例；需要导入友盟的SDK，在AndroidManifest中有如下的代码片段；
+```
+<meta-data
+     android:name="UMENG_CHANNEL"//表示渠道标示
+     android:value="${UMENG_CHANNEL_VALUE}" />//打包的目标
+```
++ 在文件的build.gradle中设置productFlavors
+```
+android {
+    productFlavors {
+        xiaomi {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "xiaomi"]
+        }
+        _360 {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "_360"]
+        }
+        baidu {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "baidu"]
+        }
+        wandoujia {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "wandoujia"]
+        }
+    }
+}
+```
++ 此时执行`./gradlew assembleRelease`命令就可以实现打包操作；
