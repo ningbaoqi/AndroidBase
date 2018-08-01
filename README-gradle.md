@@ -56,3 +56,15 @@ dependencies {
 ```
 ./gradlew compileDebugJavaWithJavac --stacktrace
 ```
+
+### gradle常用的几个命令
+
+|gradle常用的几个命令|说明|
+|------|------|
+|./gradlew -v|当前目录中项目的版本号|
+|./gradlew clean|清除当前项目app目录下的build文件夹|
+|./gradlew build|检查依赖并编译打包，此命令会把debug和release环境的包都打出来，如果正式发布这个项目，只需要打release包即可|
+|./gradlew assembleDebug|编译并打debug包|
+|./gradlew assembleRelease|编译并打release包|
+|./gradlew installRelease|通过Release模式打包并安装|
+|./gradlew uninstallRelease|卸载Release模式包|
